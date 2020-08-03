@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="https://cdn.porch.com/bootstrap/headshot-professional-1.jpg">
+        <title> ToDo Tasks </title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/8c456c6aa2.js" crossorigin="anonymous"></script>
+      
+    </head>
+    <body style="background-color: rgb(169, 204, 236, 0.7);">
+
+        <div id="toDoList">
+            <header>
+                <div class="search-box">
+                    <i class="far fa-clipboard"></i>
+                    <input type="text" id="input-task" placeholder="type your to do list">
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <div class="notifications">
+                    <!-- <p id="complete-all-tasks"> complete all tasks</p> -->
+                    <p id="clear-complete"> All clear </p>
+                </div>
+            </header>
+            
+            <div id="main">
+                <div class="notcom">
+                    <h3> Not Completed Tasks</h3>
+                    <!-- <div class="task">
+                        task
+                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-check"></i>
+                    </div> -->
+                </div>
+                <div class="com">
+                    <h3> Completed Tasks</h3>
+                    <!-- <div class="task">
+                        task
+                        <i class="fas fa-trash"></i>
+                    </div> -->
+                </div>
+
+           </div>
+
+            <div id="footer">
+                <div>
+                    <span id="count"> 0 </span>
+                    <span> tasks left </span>
+                </div>
+                <!-- <div>
+                    <span> All </span>
+                    <span> uncomplete </span>
+                    <span> complete </span>
+                </div> -->
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
