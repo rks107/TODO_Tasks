@@ -1,7 +1,8 @@
-# This is Simple ToDo Task App.
+# This is a Simple ToDo Task App.
 
 ```
-Although it's a frontened project but you never gonna loss your tasks that your created even after refressing page because In This Project I'm using localStrorage for storing tasks text.
+Although it's a frontened project but you never gonna loss your tasks that your created even after refressing page 
+because In This Project I'm using localStrorage for storing tasks text.
 ```
 <h2> 
    <a href = "https://rks107.github.io/Todo_List/" > Click Here </a>
