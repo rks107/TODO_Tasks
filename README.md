@@ -16,7 +16,7 @@ because In This Project I'm using localStrorage for storing tasks text.
 # For Cloning this Frontened project
 
 ```
-git clone https://github.com/rks107/react-hooks-use
+git clone https://github.com/rks107/Todo_List
 ```
 
 # Project Structure
