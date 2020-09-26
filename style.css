@@ -10,7 +10,7 @@ body {
 
 #toDoList {
     width: 80%;
-    margin: 50px auto;
+    margin: 10px auto;
     background-color: white;
     box-shadow: 0 0 5px black;
     border-radius: 10px;
@@ -60,15 +60,16 @@ header {
 
 .notifications {
     display: flex;
-    flex-direction: row-reverse;
-    /* justify-content: space-between; */
-    margin-top: 10px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    margin: 10px 0px 5px 0px;
+    /* border-bottom: 1px solid rgba(0,0,0,0.2); */
 }
-.notifications p{
+.notifications button{
     font-size: 0.8rem;
     margin-bottom: 2px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 #footer {
@@ -108,7 +109,7 @@ header {
     cursor: pointer;
 }
 
-.com .task {
+#com .task {
     background-color: rgba(0,0,0,0.6);
     color: cornsilk;
 }
